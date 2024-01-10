@@ -1,0 +1,117 @@
+
+body {
+ background-color: #FFF;
+    color: #434455;
+    font-family:"Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 150%;
+  
+}
+
+.webstudio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.studio {
+     color:#2e2f42;
+}
+.navigation {
+    color:#2E2F42;
+    font-size: 16px;
+font-weight: 500;
+line-height:1.5;
+letter-spacing: 0.02em
+}
+
+.navigation:focus, .navigation:hover {
+   color:#404bbf;
+}
+.navigation:focus{
+    color:#404bbf;
+}
+.nav-address{
+    font-style: normal;
+    
+}
+.addressmail {
+    color:#434455
+}
+.addressmail:focus , .addressmail:hover{
+    color:#404bbf;
+}
+.primaa{
+    background-color:#2E2F42;
+}
+/* Header 1 */
+h3{
+    color:#2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: 0.4px;
+}
+.hero {
+    color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 107.143%;
+letter-spacing: 1.12px;
+}
+.button {
+    background-color: #4D5AE5;
+    font-family:"Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer
+}
+.button:hover, .button:focus {
+    background-color: #404BBF
+
+}
+.terza {
+    background-color: #F4F4FD;
+}
+.teamspisok{
+    background-color: #FFFFFF;
+}
+.tit {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42 ;
+}
+.footer {
+    background-color: #2E2F42;
+}
+.logo{
+font-size: 18px;
+font-family: "raleway";
+font-weight: 700;
+line-height: 1.17; 
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
+}
+.p-footer{
+    color: #F4F4FD;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height:150% 
+letter-spacing: 0.32px;
+}
