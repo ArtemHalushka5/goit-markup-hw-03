@@ -22,7 +22,7 @@ ul{
 
 }
 .container { 
-    max-width:1158px;
+    width:1158px;
     margin: 0 auto ;
     padding: 0 15px;
  
@@ -118,7 +118,7 @@ font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
 max-width: 496px;
-padding-left: 350px;
+margin-left: 323px;
 }
 .button {
     background-color: #4D5AE5;
