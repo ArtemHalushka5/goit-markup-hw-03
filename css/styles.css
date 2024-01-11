@@ -14,15 +14,13 @@ h1, h2, h3, h4, h5, h6, p,{
 margin: 0;
 
 }
-img {
-    display: block;
-}
 .container{
+    margin:0 auto;
     width: 1158px;
     padding: 0 15px;
 }
-.container{
-    margin: 0 auto;
+img {
+    display: block;
 }
 .header-webstudio{
     border-bottom:1px solid #e7e9fc;
