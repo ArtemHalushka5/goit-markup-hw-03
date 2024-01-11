@@ -14,9 +14,12 @@ h1, h2, h3, h4, h5, h6, p,{
 margin: 0;
 
 }
+img{
+    display: block;
+}
 .container{
     width: 1158px;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px;
 }
 .header-webstudio{
@@ -178,7 +181,7 @@ padding-left: 350px;
     text-transform: capitalize;
     color: #2e2f42 ;
     margin-bottom: 72px;
-    padding-top: 120px;
+   
 }
 .quarta{
     padding-top: 120px;
