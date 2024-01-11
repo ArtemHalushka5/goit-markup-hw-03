@@ -150,8 +150,8 @@ padding-left: 350px;
     display: flex;
     gap:24px;
 }
-.seconda-list-unordnet{
-    width: calc((100% - 72px) /4);
+.seconda-list-unordnet {
+width: calc((100% - 72px) / 4);
 }
 .smalltitle{
     margin-bottom: 8px;
