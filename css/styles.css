@@ -196,9 +196,12 @@ padding-left: 350px;
     margin-bottom: 72px;
    
 }
-.smalltitle{
+.smalltitle {
     text-align: center;
     margin-bottom: 8px
+}
+.maltext{
+    text-align: center;
 }
 .quarta{
     padding-top: 120px;
