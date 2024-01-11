@@ -135,16 +135,7 @@ padding-left: 350px;
 .seconda{
     padding: 120px 0;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-}
+
 .seconda-list{
     display: flex;
     gap:24px;
@@ -156,6 +147,17 @@ padding-left: 350px;
     margin-bottom: 8px;
     align-items: center;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  
 .terza {
     margin: 120px 0;
     background-color: #F4F4FD;
