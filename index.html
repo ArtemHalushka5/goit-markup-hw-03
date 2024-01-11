@@ -12,17 +12,19 @@
     <title>goit-markup-hw-02</title>
   </head>
   <body>
-    <header>
+    <div class="container">
+    <header class="header-webstudio">
+      <div class="topline container">
       <nav class="nav">
         <a class="webstudio" href="./index.html">Web<span class="studio">Studio</span></a>
-        <ul>
+        <ul class="menu">
         <li><a class="navigation" href="./index.html">Studio</a></li>
          <li><a class="navigation" href="">Portfolio</a></li>
         <li><a class="navigation" href="">Contacts</a></li>
         </ul>
       </nav>
       <address class="nav-address">
-        <ul>
+        <ul class="nav-mail-tel">
           <li><a class="addressmail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
@@ -30,39 +32,43 @@
           </li>
         </ul>
       </address>
+    </div>
   </header>
     <main>
       <!-- sec1 -->
-      <section class="primaa">
-        <h1 class="hero">Effective Solutions<br>for Your Business</h1>
+      <section class="primaa ">
+        <div class="container">
+        <h1 class="hero">Effective Solutions for Your Business</h1>
         <button class="button" type="button">Order Service</button>
-     </section>
+      </div>
+    </section>
       <!-- sec2 -->
       <section class="seconda">
-        <h2 hidden>WebStudio</h2>
-        <ul>
-          <li>
+        <div>
+        <h2 class="visually-hidden">WebStudio</h2>
+        <ul class="seconda-list">
+          <li class="seconda-list-unordnet">
             <h3 class="smalltitle">Strategy</h3>
             <p class="maltext">
               Our goal is to identify the business<br>problem to walk away with the<br>
               perfect and creative solution.
             </p>
           </li>
-          <li>
+          <li class="seconda-list-unordnet">
             <h3 class="smalltitle">Punctuality</h3>
             <p class="maltext">
               Bring the key message to the<br> brand's audience for the best price<br>
               within the shortest possible time.
             </p>
           </li>
-          <li>
+          <li class="seconda-list-unordnet">
             <h3 class="smalltitle">Diligence</h3>
             <p class="maltext">
               Research and confirm brands that<br>present the strongest digital
-              growth<br>opportunities and minimize risk.
+              growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
+          <li class="seconda-list-unordnet">
             <h3 class="smalltitle">Technologies</h3>
             <p class="maltext">
               Design practice focused on digital<br>experiences. We bring forth a
@@ -73,8 +79,9 @@
       </section>
       <!-- sec3 -->
       <section class="terza">
+        <div class="container">
         <h2 class="tit">Our Team</h2>
-        <ul>
+        <ul class="our-team-spisok">
           <li class="teamspisok">
             <img
               src="./images/1.jpg"
@@ -82,14 +89,18 @@
               width="264"
               height="260"
             />
-            <h3 class="smalltitle">Mark Guerrero</h3>
+            <div class="name-proff">
+              <h3 class="smalltitle">Mark Guerrero</h3>
             <p class="maltext">Product Designer</p>
-          </li>
+          </div>
+        </li>
           <li class="teamspisok">
             <img src="./images/2.jpg" alt="Tom Ford" width="264" height="260" />
+           <div class="name-proff">
             <h3 class="smalltitle">Tom Ford</h3>
             <p class="maltext">Frontend Developer</p>
-          </li>
+          </div>
+        </li>
           <li class="teamspisok">
             <img
               src="./images/3.jpg"
@@ -97,9 +108,11 @@
               width="264"
               height="260"
             />
-            <h3 class="smalltitle">Camila Garcia</h3>
+            <div class="name-proff">
+              <h3 class="smalltitle">Camila Garcia</h3>
             <p class="maltext">Marketing</p>
-          </li>
+          </div>
+        </li>
           <li class="teamspisok">
             <img
               src="./images/4.jpg"
@@ -107,46 +120,58 @@
               width="264"
               height="260"
             />
-            <h3 class="smalltitle">Daniel Wilson</h3>
+            <div class="name-proff">
+              <h3 class="smalltitle">Daniel Wilson</h3>
             <p class="maltext">UI Designer</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
       <!--Our Portofolio-->
       <section class="quarta">
+        <div class="container">
         <h2 class="tit">Our Portfolio</h2>
-        <ul>
-          <li>
+        <ul class="quarta-unordnet">
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img1.jpg" alt="Banking App" width="360">
-            <h3 class="title-portfolio">Banking App</h3>
+            <div class="quarta-apps">
+              <h3 class="title-portfolio">Banking App</h3>
             <p class="p-our-portofolio">App</p>
+          </div>
           </li>
-          <li>
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img2.jpg" alt="Cashless Payment" width="360">
+            <div class="quarta-apps">
             <h3 class="title-portfolio">Cashless Payment</h3>
             <p class="p-our-portofolio">Marketing</p>
-          </li>
-          <li>
+          </div> </li>
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img3.jpg" alt="Meditation App" width="360">
+            <div class="quarta-apps">
             <h3 class="title-portfolio">Meditation App</h3>
             <p class="p-our-portofolio">App</p>
-          </li>
-          <li>
+          </div></li>
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img4.jpg" alt="Taxi Service" width="360">
+            <div class="quarta-apps">
             <h3 class="title-portfolio">Taxi Service</h3>
             <p class="p-our-portofolio">Marketing</p>
-          </li>
-          <li>
+          </div> </li>
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img5.jpg" alt="Screen Illustrations" width="360" >
+            <div class="quarta-apps">
             <h3 class="title-portfolio">Screen Illustrations</h3>
             <p class="p-our-portofolio">Design</p>
-          </li>
-          <li>
+          </div></li>
+          <li class="quarda-unordnet-list">
             <img class="portfolio-img" src="./images/img6.jpg" alt="Online Courses" width="360">
+            <div class="quarta-apps">
             <h3 class="title-portfolio">Online Courses</h3>
             <p class="p-our-portofolio">Marketing</p>
-          </li>
+          </div></li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
@@ -158,5 +183,6 @@
         marketing & growth solutions.
       </p>
     </footer>
+  </div>
   </body>
 </html>

@@ -10,6 +10,40 @@ body {
   line-height: 150%;
   
 }
+h1, h2, h3, h4, h5, h6, p,{
+margin: 0;
+
+}
+.container{
+    width: 1158px;
+    margin: auto;
+    padding: 0 15px;
+}
+.header-webstudio{
+    border-bottom:1px solid #e7e9fc;
+}
+.topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+height: 72px;
+flex-shrink: 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+   
+}
+.nav-mail-tel{
+    display: flex;
+    gap: 40px;
+}
 
 .webstudio {
   font-family: "Raleway", sans-serif;
@@ -19,6 +53,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin:25.5px 76px 25.5px 156px;
+
 }
 .studio {
      color:#2e2f42;
@@ -28,9 +64,10 @@ body {
     font-size: 16px;
 font-weight: 500;
 line-height:1.5;
-letter-spacing: 0.02em
-}
+letter-spacing: 0.02em;
+margin: 24 0;
 
+}
 .navigation:focus, .navigation:hover {
    color:#404bbf;
 }
@@ -49,6 +86,7 @@ letter-spacing: 0.02em
 }
 .primaa{
     background-color:#2E2F42;
+padding: 186px 0;
 }
 /* Header 1 */
 h3{
@@ -66,6 +104,8 @@ font-style: normal;
 font-weight: 700;
 line-height: 107.143%;
 letter-spacing: 1.12px;
+max-width: 496px;
+padding-left: 350px;
 }
 .button {
     background-color: #4D5AE5;
@@ -75,17 +115,60 @@ letter-spacing: 1.12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 500px;
+
 }
 .button:hover, .button:focus {
     background-color: #404BBF
 
 }
+.seconda{
+    padding: 120px 0;
+}
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.seconda-list{
+    display: flex;
+    gap:24px;
+}
+.seconda-list-unordnet{
+    width: calc((100% - 72px) /4);
+}
+.smalltitle{
+    margin-bottom: 8px;
+    align-items: center;
+}
 .terza {
+    margin: 120px 0;
     background-color: #F4F4FD;
+   
+}
+.our-team-spisok{
+    display: flex;
+    gap: 24px;
+    
 }
 .teamspisok{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.name-proff{
+    padding: 32px 0;
 }
 .tit {
     font-size: 36px;
@@ -94,6 +177,26 @@ letter-spacing: 1.12px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42 ;
+    margin-bottom: 72px;
+    padding-top: 120px;
+}
+.quarta{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.quarta-unordnet{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  
+}
+.quarda-unordnet-list{
+    width: calc((100% - 48px) / 3);
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+}
+.quarta-apps{
+    padding: 32px 16px ;
 }
 .footer {
     background-color: #2E2F42;
